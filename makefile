@@ -1,11 +1,11 @@
 
 PROJ=wizard
-PROG=wizard_sd
+PROG=wizard1_sd
 LIB=../g2_lib
 BASE=$(PWD)
 TRG=../njm_app_bin
 
-export FGLIMAGEPATH=$(BASE):$(FGLDIR)/lib/image2font.txt
+export FGLIMAGEPATH=$(BASE)/pics:$(FGLDIR)/lib/image2font.txt
 export FGLRESOURCEPATH=$(BASE)/etc
 export FGLLDPATH=$(TRG):$(GREDIR)/lib
 
